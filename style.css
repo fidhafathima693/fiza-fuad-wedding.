@@ -444,3 +444,84 @@ opacity:0;
 }
 
 }
+/* ===========================
+   EVENT DETAILS
+=========================== */
+
+.event-section{
+
+    padding:80px 25px;
+    background:#fdf8f2;
+    text-align:center;
+
+}
+
+.section-title{
+
+    font-family:'Cinzel',serif;
+    font-size:36px;
+    color:#b68a2d;
+    margin-bottom:50px;
+
+}
+
+.event-card{
+
+    max-width:850px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+
+}
+
+.event-item{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    border:1px solid rgba(212,175,55,.3);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.event-item:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 40px rgba(201,164,76,.25);
+
+}
+
+.icon{
+
+    font-size:42px;
+
+    margin-bottom:15px;
+
+}
+
+.event-item h3{
+
+    font-family:'Cinzel',serif;
+
+    color:#b68a2d;
+
+    margin-bottom:12px;
+
+}
+
+.event-item p{
+
+    color:#555;
+
+    line-height:1.8;
+
+}
