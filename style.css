@@ -853,3 +853,76 @@ opacity:0;
     color:#c9a44c;
 
 }
+/* ===========================
+   THANK YOU
+=========================== */
+
+.thankyou{
+
+    padding:100px 25px;
+
+    text-align:center;
+
+    background:#fffdf9;
+
+}
+
+.thanks-text{
+
+    max-width:700px;
+
+    margin:20px auto;
+
+    color:#666;
+
+    line-height:1.9;
+
+    font-size:18px;
+
+}
+
+.closing-divider{
+
+    width:120px;
+
+    height:2px;
+
+    background:#c9a44c;
+
+    margin:40px auto;
+
+}
+
+.couple-sign{
+
+    font-family:'Cinzel',serif;
+
+    color:#c9a44c;
+
+    font-size:42px;
+
+    margin-top:20px;
+
+}
+
+.couple-sign span{
+
+    margin:0 12px;
+
+    color:#8b6b3d;
+
+}
+
+footer{
+
+    background:#f8f2e8;
+
+    padding:35px 20px;
+
+    text-align:center;
+
+    color:#7b6848;
+
+    line-height:1.8;
+
+}
