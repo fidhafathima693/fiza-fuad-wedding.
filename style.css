@@ -926,3 +926,110 @@ footer{
     line-height:1.8;
 
 }
+/* ===========================
+   SCROLL ANIMATIONS
+=========================== */
+
+.hero,
+.event-section,
+.countdown-section,
+.family-section,
+.venue-section,
+.dua-section,
+.thankyou{
+
+    animation:fadeUp 1.5s ease;
+
+}
+
+
+@keyframes fadeUp{
+
+from{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+}
+
+to{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+}
+
+
+/* ===========================
+   MOBILE DESIGN
+=========================== */
+
+@media(max-width:600px){
+
+
+.bismillah{
+
+    font-size:32px;
+
+}
+
+
+.bride-name,
+.groom-name{
+
+    font-size:40px;
+
+}
+
+
+.section-title{
+
+    font-size:28px;
+
+}
+
+
+.time-box{
+
+    width:90px;
+
+    height:90px;
+
+}
+
+
+.time-box span{
+
+    font-size:28px;
+
+}
+
+
+.arabic-verse{
+
+    font-size:28px;
+
+}
+
+
+.couple-sign{
+
+    font-size:30px;
+
+}
+
+
+.envelope{
+
+    width:280px;
+
+    height:190px;
+
+}
+
+
+}
