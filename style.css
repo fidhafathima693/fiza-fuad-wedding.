@@ -1,1 +1,202 @@
+/* ===========================
+   GOOGLE FONTS & RESET
+=========================== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    overflow:hidden;
+    background:#FAF6F0;
+}
+
+/* ===========================
+   OPENING SCREEN
+=========================== */
+
+#opening{
+    position:fixed;
+    inset:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(180deg,#FFFDF9,#F5EAD8);
+    overflow:hidden;
+}
+
+/* Soft glowing background */
+
+.background{
+    position:absolute;
+    inset:0;
+    background:
+    radial-gradient(circle at top,#fff5dc 0%,transparent 60%);
+    opacity:.8;
+}
+
+/* ===========================
+   ENVELOPE
+=========================== */
+
+.envelope{
+
+    position:relative;
+
+    width:320px;
+
+    height:220px;
+
+    cursor:pointer;
+
+    transition:.8s;
+
+}
+
+/* Envelope Body */
+
+.envelope::before{
+
+    content:"";
+
+    position:absolute;
+
+    bottom:0;
+
+    width:100%;
+
+    height:170px;
+
+    background:#FFF8EF;
+
+    border:2px solid #D4AF37;
+
+    border-radius:0 0 12px 12px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+/* Envelope Flap */
+
+.flap{
+
+    position:absolute;
+
+    width:100%;
+
+    height:120px;
+
+    background:#F7E7D2;
+
+    clip-path:polygon(0 0,100% 0,50% 100%);
+
+    transform-origin:top;
+
+    transition:1s;
+
+    z-index:5;
+
+}
+
+/* Invitation Card */
+
+.letter{
+
+    position:absolute;
+
+    left:15px;
+
+    right:15px;
+
+    bottom:15px;
+
+    height:150px;
+
+    background:white;
+
+    border-radius:10px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    transition:1s;
+
+}
+
+.letter h1{
+
+    font-family:'Cinzel',serif;
+
+    color:#C9A44C;
+
+    font-size:36px;
+
+}
+
+.letter p{
+
+    margin-top:10px;
+
+    letter-spacing:2px;
+
+}
+
+/* Wax Seal */
+
+.seal{
+
+    position:absolute;
+
+    left:50%;
+
+    top:90px;
+
+    transform:translateX(-50%);
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    background:#C9A44C;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:bold;
+
+    z-index:10;
+
+    box-shadow:0 0 20px rgba(201,164,76,.5);
+
+}
+
+/* Text */
+
+.tap{
+
+    margin-top:40px;
+
+    color:#8B6B3E;
+
+    letter-spacing:2px;
+
+    font-size:15px;
+
+}
