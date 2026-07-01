@@ -763,3 +763,44 @@ body{
     font-size:24px;
     margin:0 18px;
 }
+/* ===========================
+   GOLD SPARKLES
+=========================== */
+
+.sparkles{
+    position:absolute;
+    inset:0;
+    overflow:hidden;
+    pointer-events:none;
+    z-index:10;
+}
+
+.sparkles span{
+    position:absolute;
+    width:6px;
+    height:6px;
+    background:#f4d27c;
+    border-radius:50%;
+    box-shadow:0 0 12px #f4d27c;
+    animation:twinkle 6s infinite ease-in-out;
+}
+
+.sparkles span:nth-child(1){top:10%;left:15%;animation-delay:0s;}
+.sparkles span:nth-child(2){top:20%;left:80%;animation-delay:1s;}
+.sparkles span:nth-child(3){top:35%;left:40%;animation-delay:2s;}
+.sparkles span:nth-child(4){top:50%;left:70%;animation-delay:3s;}
+.sparkles span:nth-child(5){top:65%;left:20%;animation-delay:4s;}
+.sparkles span:nth-child(6){top:75%;left:90%;animation-delay:2s;}
+.sparkles span:nth-child(7){top:85%;left:50%;animation-delay:5s;}
+.sparkles span:nth-child(8){top:25%;left:55%;animation-delay:3s;}
+
+@keyframes twinkle{
+    0%,100%{
+        opacity:.2;
+        transform:scale(.8);
+    }
+    50%{
+        opacity:1;
+        transform:scale(1.6);
+    }
+}
