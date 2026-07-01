@@ -162,15 +162,14 @@ margin:10px 0;
 }
 
 .parents{
-
-font-size:18px;
-
-color:#666;
-
-line-height:1.8;
-
+    font-family:'Cinzel', serif;
+    font-size:22px;
+    font-weight:500;
+    color:#8b6b3d;
+    line-height:1.8;
+    letter-spacing:0.5px;
+    margin:8px 0;
 }
-
 .petals span:nth-child(5){
 left:65%;
 animation-duration:13s;
